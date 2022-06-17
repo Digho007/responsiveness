@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  background-image: url(./bg-intro-desktop.png);
+  background-size: cover;
+  background-color: brown;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+input,
+.btn {
+  width: 80%;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: rgba(0, 255, 55, 0.904);
+  color: white;
+}
+
+form {
+  background-color: aliceblue;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.forehead {
+  background-color: blueviolet;
+  color: aliceblue;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.box1 {
+  color: white;
+  padding: 15%;
+  width: 80%;
+}
+a {
+  color: red;
+  text-decoration: none;
+}
+
+.box2 {
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  width: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+  section {
+    display: table-row;
+  }
+}
